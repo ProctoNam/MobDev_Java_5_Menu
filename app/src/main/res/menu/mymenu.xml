@@ -32,4 +32,19 @@
             android:title="exit">
         </item>
     </group>
+    <item
+        android:id="@+id/menu_Ex1"
+        android:orderInCategory="4"
+        android:title="Extra button 1">
+    </item>
+    <item
+        android:id="@+id/menu_Ex2"
+        android:orderInCategory="5"
+        android:title="Extra button 2">
+    </item>
+    <item
+        android:id="@+id/menu_Ex3"
+        android:orderInCategory="6"
+        android:title="Extra button 7">
+    </item>
 </menu>

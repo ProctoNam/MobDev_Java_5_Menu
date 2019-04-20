@@ -26,10 +26,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.mymenu, menu);
         return super.onCreateOptionsMenu(menu);
     }
+
+
 
 
     // обновление меню
@@ -47,6 +50,10 @@ public class MainActivity extends AppCompatActivity {
         // TODO Auto-generated method stub
         StringBuilder sb = new StringBuilder();
 
+
+        switch (item.getItemId()) {
+            case R.id.menu_exit:
+                System.exit(0);}
         // Выведем в TextView информацию о нажатом пункте меню
         sb.append("Item Menu");
         sb.append("\r\n groupId: " + String.valueOf(item.getGroupId()));
@@ -57,5 +64,6 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 
 }

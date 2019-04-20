@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_new"
+        android:title="New game">
+    </item>
+    <item
+        android:id="@+id/menu_lvl"
+        android:title="Level">
+    </item>
+    <item
+        android:id="@+id/menu_exit"
+        android:title="Exit">
+    </item>
+</menu>
